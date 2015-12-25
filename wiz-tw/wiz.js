@@ -138,7 +138,7 @@ wizLoader = (function() {
       var answer, question, url;
       question = encodeURIComponent($(this).data("question"));
       answer = encodeURIComponent($(this).data("answer"));
-      url = "https://docs.google.com/forms/d/1GYyqSKOfF2KMkMGfEuKtyE8oZadgTRRj_ZClYZRX2Qc/viewform?entry.699244241=%E9%A1%8C%E7%9B%AE%EF%BC%9A" + question + "%0A%E5%8E%9F%E5%A7%8B%E7%AD%94%E6%A1%88%EF%BC%9A" + answer + "%0A%E6%AD%A3%E7%A2%BA%E7%AD%94%E6%A1%88%EF%BC%9A";
+      url = "https://docs.google.com/forms/d/1wf8aclD8hGFxwiJwpTE1NfF3qnSVnLOZWbzlalBzNj4/viewform?entry.2109388025=%E9%A1%8C%E7%9B%AE%EF%BC%9A" + question + "%0A%E5%8E%9F%E5%A7%8B%E7%AD%94%E6%A1%88%EF%BC%9A" + answer + "%0A%E4%BF%AE%E6%94%B9%E9%A0%85%E7%9B%AE%EF%BC%9A";
       $("#report-modal iframe").attr("src", url);
       return $('#report-modal').modal('show');
     });
