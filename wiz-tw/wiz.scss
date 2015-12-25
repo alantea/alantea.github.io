@@ -33,30 +33,16 @@ html {
 }
 #overlay-loading-content{
     position: absolute;
-    top: 50px;
-    // top: 0;
-    // bottom: 0;
+    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width: 340px;
-    // height: 350px;
+    width: 300px;
+    height: 100px;
     text-align: center;
     color: #fff;
 }
-
-#overlay-loading-announce {
-    color: #E6D6F0;
-    a {
-        color: #eee;
-    }
-}
-
-#process-bar {
-    text-align: center;
-    color: #000;
-}
-
 #nav-share {
     &.navbar-nav>li>a {
         padding-top: 15px;
@@ -66,24 +52,9 @@ html {
         font-size: 1.5em;
     }
 }
-
-#page-menu {
-    margin-top: 20px;
-}
-
-#page-list {
-
-    .list-detail {
-        display: none;
-    }
-}
-
 #search-box {
     margin-top: 50px;
     margin-bottom: 70px;
-}
-#load-count {
-    font-size: 50%;
 }
 #result img {
     max-width: 100%;
